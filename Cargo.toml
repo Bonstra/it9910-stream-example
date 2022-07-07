@@ -1,0 +1,11 @@
+[package]
+name = "it9910-stream-example"
+version = "0.1.0"
+authors = ["Hugo Grostabussiat <bonstra@bonstra.fr.eu.org>"]
+edition = "2018"
+description = "Test program to acquire the MPEG TS stream from a IT9910 USB device"
+readme = "README"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+rusb = "0.9"

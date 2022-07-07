@@ -1,0 +1,6 @@
+This small ugly program will start acquisition of the MPEG TS stream from a
+IT9910 based USB device. The stream data is output to stdout.
+
+Run with:
+cargo run | mpv --profile=low-latency --demuxer-lavf-format=mpegts -
+
